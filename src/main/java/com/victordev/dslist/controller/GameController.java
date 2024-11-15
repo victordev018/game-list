@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/games")
 public class GameController {
 
-    private GameService gameService;
+    private final GameService gameService;
 
     // constructor to do dependencies injections
     public GameController(GameService gameService) {
