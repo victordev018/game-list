@@ -61,8 +61,6 @@ Resposta:
 
 - Alterar a posição de um jogo dentro de uma lista:
 
-- Buscar todas as coleções de jogos:
-
 ```
 POST {url-application}/lists/{listId}/replacement
 
@@ -76,7 +74,7 @@ Corpo da Requisição em JSON:
 
 ### Endpoints referentes aos Jogos:
 
-- Buscar jogo por *id*
+- Buscar jogo por __id__
 
 ```
 GET {url-application}/games/{gameId}
@@ -128,7 +126,13 @@ Resposta:
 ]
 ```
 
+## Modelo de Domínio:
 
+![domain model image](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
 
+## Aprendizados:
 
+Desenvolver este projeto me ajudou a reforçar conceitos importantes no desenvolvimento de *API REST* e utilizar o *JPA* para persistir dados,
+mapear as entidades e trabalhar com relacionamentos *Muitos para Muitos*, além de dar por em prática minha lógica de programação, desenvolvendo os
+recursos da aplicação.
 
